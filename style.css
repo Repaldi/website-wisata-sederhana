@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+  
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+  
+/*class header */
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(29, 34, 40, 0.9);
+    position: fixed;
+    top:0;
+    z-index: 10;
+    box-shadow:  0px 0px 5px 0px #ffffff;
+    margin:0px 0px 5px 0px;
+}
+  
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+  
+.header-left {
+    float: left;
+}
+  
+.header-right {
+    float: right;
+    transition: all 0.5s;
+}
+.header-right ul {
+    list-style: none;
+    position: relative;
+}
+
+.header-right ul li:hover > ul {
+    display: block;
+    border-radius: 5px;
+}
+
+.header-right ul li {
+    float: left;
+}
+
+.header-right ul li a{
+    padding: 5px 20px;
+    color: #FB8122;
+    display: block;
+    cursor: pointer;
+}
+
+.header-right ul li a:hover{
+    background:  rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+.header-right ul ul {
+    background: rgba(29, 34, 40, 0.9);
+    padding: 0;
+    margin-bottom:10px;
+    position: absolute;
+    display: none;
+    width:30%;
+}
+  
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(asset/bg.gif);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+  
+.top-wrapper h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color:red;
+}
+
+.top-wrapper span {
+    color:white;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+  
+  
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.start {
+    background-color: #FB8122;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.opening-words {
+    text-align:center;
+}
+
+.opening-words span{
+    font-size: 20px;
+}
+
+.feature {
+    display:inline-table;
+    width:31%;
+    padding:0 10px;
+    
+}
+
+.feature-icon {
+    position: relative;
+}
+.feature-icon img {
+    width: 100%;
+    border-radius: 10px 10px;
+}
+.feature-icon img:hover {
+    transform: scale(1.1);
+}
+
+.feature-icon h3 {
+    position: absolute;
+    top: 170px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.quotes {
+    padding: 50px 0 50px 0;
+    background-image: url(asset/top-wrapper-1.jpg);
+    color: white;
+    background-repeat:no-repeat;
+    width:85%;
+    border-radius:10px
+}
+
+.discover-wrapper {
+    margin:50px 0;
+    padding:30px 0;
+    background-color: rgb(29, 34, 40);
+    height: auto;
+}
+
+.head-discover {
+    color:white;
+    padding-bottom:20px;
+}
+
+.discover-hr {
+    border-color: red;
+    border-style: groove;
+    width:20%;
+    text-align:left;
+}
+.discover {
+    display:inline-table;
+    width:30%;
+    margin:0 15px;
+}
+
+.discover-icon {
+    position: relative;
+}
+
+.discover-icon img {
+    width:100%;
+    height:500px;
+    border-radius: 10px 10px;
+}
+.discover-icon img:hover {
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 10px 10px;
+}
+
+.discover-icon h3 {
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.teams{
+   text-align: center;
+}
+
+.team {
+    display:inline-table;
+    width:30%;
+    padding:0 10px;  
+}
+
+.team-icon {
+    position: relative;
+}
+.team-icon img {
+    width: 100%;
+    border-radius: 10px 10px;
+}
+.team-icon img:hover {
+    transform: scale(1.1);
+}
+
+.team h3 {
+    font-size:18px;
+    padding-bottom:20px;
+}
+  
+input , textarea {
+width: 400px;
+margin-top: 5px;
+margin-bottom: 5px;
+padding: 10px;
+font-size: 18px;
+border:1px solid #dee7ec;
+}
+
+.contact-submit {
+background-color:#dee7ec;
+color:#889eab;
+}
+
+.contact-submit:hover{
+background-color:#FB8122;
+color:#ffffff;
+}
+
+footer img {
+    width: 125px;
+}
+  
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+  
+footer {
+    margin-top:100px;
+    padding-top: 30px;
+    height: 150px;
+    width: 100%;
+    background-color:  rgba(29, 34, 40, 0.9);
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+  }
+  .preloader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font: 14px arial;
+  }
