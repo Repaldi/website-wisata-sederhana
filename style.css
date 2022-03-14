@@ -177,6 +177,10 @@ header {
     height: auto;
 }
 
+.discover-wrapper h1,h3{
+    text-align:center;
+}
+
 .head-discover {
     color:white;
     padding-bottom:20px;
