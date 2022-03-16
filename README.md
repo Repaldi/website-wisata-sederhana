@@ -6,4 +6,4 @@ dan Halaman objek wisata dari setiap anggota kelompok _A02_, dengan anggota seba
    2. Siti Khotimah
    3. Muhjar Nias Dani
    4. Wildan Muhjahidin
-   5. Yanuar 
+   5. Yanuar Kurnianto
