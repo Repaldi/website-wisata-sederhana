@@ -1,8 +1,7 @@
 # website-wisata-sederhana
 
-Project pada web ini menampilkan :
-a. Halaman utama wisata
-b. Halaman objek wisata dari setiap anggota kelompok _A02_, dengan anggota sebagai berikut :
+Project pada web ini menampilkan, Halaman utama wisata
+dan Halaman objek wisata dari setiap anggota kelompok _A02_, dengan anggota sebagai berikut :
    1. Repaldi Hendi Saputra
    2. Siti Khotimah
    3. Muhjar Nias Dani
